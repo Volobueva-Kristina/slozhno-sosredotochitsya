@@ -1,4 +1,26 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --main-font: "IBM Plex mono";
+  --bg-color: #000028;
+  --bg-accent: #ff0070;
+  --accent-color: #ff0070;
+  --text-color: #f1b2ce;
+  --text-title-color: #000028;
+  --accent-text-color: #db00ff;
+
+  --text-font-size: 18px;
+  --container-padding-xs: 10px;
+  --container-padding-md: 20px;
+  --container-margin-xs: 40px;
+  --container-margin-md: 50px;
+
+  --grid-col: 1;
+  --grid-gap: 10px;
+  --grid-gap-md: 20px;
+}
+@media (min-width: 768px) {
+  :root {
+    --container-padding-xs: 20px;
+    --container-margin-xs: 60px;
+    --container-margin-md: 80px;
+  }
+}
