@@ -27,9 +27,11 @@
     --text-color: #353430;
     --accent-text-color: #ffc2e6;
   }
+
   .theme_auto {
     background-image: url(../images/cover-image-light.png);
   }
+  
   .theme_auto .light-bulb {
     display: none;
   }
