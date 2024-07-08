@@ -20,7 +20,7 @@
 
 @media (prefers-color-scheme: dark) {
   @media (min-width: 768px) {
-    .theme_auto .link-accent[href="https://dana.org/article/multicosts-of-multitasking/"]{
+    .theme_auto .link-accent[href="https://dana.org/article/multicosts-of-multitasking/"] {
       border: none;
     }
   }
@@ -29,13 +29,13 @@
     background-image: url(../images/cover-image-dark.png);
   }
 
-  .theme_auto .link-accent[href="https://dana.org/article/multicosts-of-multitasking/"]{
+  .theme_auto .link-accent[href="https://dana.org/article/multicosts-of-multitasking/"] {
     border-bottom: 1px solid var(--text-color);
   }
 }
 
 @media (min-width: 768px) {
-  .theme_dark .link-accent[href="https://dana.org/article/multicosts-of-multitasking/"]{
+  .theme_dark .link-accent[href="https://dana.org/article/multicosts-of-multitasking/"] {
     border: none;
   }
 }
